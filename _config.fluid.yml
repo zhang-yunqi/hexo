@@ -6,7 +6,7 @@ navbar:
     - { key: 'home', link: '/', icon: 'iconfont icon-home-fill'}
     - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
     - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: '关于我' }
-    - { key: 'categories', link: '/categories/', icon: 'iconfont icon-categories-fill'}
+    - { key: 'categories', link: '/categories/', icon: 'iconfont icon-categories-fill' name: '分类'}
 
 force_https: true
 
