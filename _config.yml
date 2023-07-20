@@ -11,6 +11,10 @@ author: Yunai
 language: zh-CN
 timezone: ''
 
+marked:
+  prependRoot: true
+  postAsset: true
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://www.yunqi-log.link
@@ -22,9 +26,6 @@ pretty_urls:
 
 # Directory
 post_asset_folder: true
-marked:
-  prependRoot: true
-  postAsset: true
 source_dir: source
 public_dir: public
 tag_dir: tags
