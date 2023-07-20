@@ -1,0 +1,34 @@
+navbar:
+  blog_title: 小柴的blog
+
+  navbar:
+  menu:
+    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill'}
+    - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
+    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: '关于我' }
+
+force_https: true
+
+post:
+  comments:
+    enable: true
+    type: gitalk   
+gitalk:
+  clientID: 'eaf6796126e7e09bb6b7'                           # 创建应用后的 Client id
+  clientSecret: '664501502707d6982331803cea94d3c831761b33'                       # 创建应用后的 Client secrets
+  repo: 'zhang-yunqi.github.io'                                     # 评论用的仓库名称
+  owner: 'zhang-yunqi'                                          # 填自己github账户名字就好
+  admin: ['zhang-yunqi']                                        # 填自己github账户名字就好
+  language: zh-CN
+  labels: ['Gitalk']
+  perPage: 10
+  pagerDirection: first
+  distractionFreeMode: true
+  createIssueManually: true
+  proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+
+
+index:
+  slogan:
+    enable: true
+    text: 这里是小柴ai的blog
