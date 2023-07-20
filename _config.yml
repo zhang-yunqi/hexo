@@ -21,6 +21,10 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 source_dir: source
 public_dir: public
 tag_dir: tags
