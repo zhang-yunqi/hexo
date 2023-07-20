@@ -115,8 +115,8 @@ auto_category:
  enable: true
  depth:
 
-deploy:
-  type: 'baidu_url_submitter'
+# deploy:
+#   type: 'baidu_url_submitter'
 
 
 # baidu_url_submit:
