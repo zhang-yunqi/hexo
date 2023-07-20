@@ -16,7 +16,7 @@ post:
 gitalk:
   clientID: 'eaf6796126e7e09bb6b7'                           # 创建应用后的 Client id
   clientSecret: '664501502707d6982331803cea94d3c831761b33'                       # 创建应用后的 Client secrets
-  repo: 'zhang-yunqi.github.io'                                     # 评论用的仓库名称
+  repo: 'hexo'                                     # 评论用的仓库名称
   owner: 'zhang-yunqi'                                          # 填自己github账户名字就好
   admin: ['zhang-yunqi']                                        # 填自己github账户名字就好
   language: zh-CN
