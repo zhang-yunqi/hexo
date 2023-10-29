@@ -1,8 +1,9 @@
 ---
+title: python的for循环是range-based for loop
+tags: Python
 categories:
   - Python and reinforcement leraning
 ---
-# python的for循环是range-based for loop
 
 提到range-based for loop 就必须要提到与之对应的另一个概念regular for loop。顾名思义，regular for loop是一种更传统的for loop。很多有历史[^ 1]的编程语言都是regular for loop。比如c/c++
 
@@ -13,7 +14,7 @@ for (int i=0; i<10; i++){
 std::cout<<std::endl;
 ```
 
-## regular for loop为什么regular（传统）：
+# regular for loop为什么regular（传统）：
 
 这涉及到一个关于汇编语言的知识点。汇编只有一种循环——loop循环
 
@@ -28,7 +29,7 @@ loop s
 
 > cx寄存器是计数（count）寄存器
 
-## range-based for loop的诞生
+# range-based for loop的诞生
 
 如果你善于总结那你就会发现，regular for loop是基于计数的一种for loop的实现，以上代码可以用这样的while loop来替代：
 
@@ -53,11 +54,11 @@ for i in li:
 
 就是如此简单，range-based for loop就是为遍历而生的。
 
-## for loop 常用于知道循环次数的循环
+# for loop 常用于知道循环次数的循环
 
 遍历只是很小的一种功能，range-based for loop的能力当然不止于此。它和range关键字组合在一起将是一个王炸。
 
-### range关键字
+## range关键字
 
 range关键字是用于生成列表的，它可以生成一个前闭后开的整型数组。它通常接受两个参数，起始数和结束数。如果只填写一个参数那默认填写的参数是结束数，而起始数为0。
 
@@ -69,7 +70,7 @@ for i in range(10):
 print("")
 ```
 
-## c++的range-based for loop
+# c++的range-based for loop
 
 c++11中增加的对rande-based for loop的支持
 
