@@ -1,3 +1,9 @@
+---
+title: chrono现代C++的时间库
+date: 2009-10-10
+categories: [Morden C++]
+---
+
 # chrono现代C++中的时间库
 
 ## 时钟
