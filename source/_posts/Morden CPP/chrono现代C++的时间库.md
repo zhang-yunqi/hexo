@@ -37,4 +37,5 @@ duration 是chrono中表示时间间隔的类
 4.zero()
 返回特殊持续时间值零
 
-
+## chrono_literals
+常用的时间单位，可用于delay应用等
