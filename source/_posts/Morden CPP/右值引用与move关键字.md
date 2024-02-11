@@ -1,6 +1,6 @@
 ---
 title: 右值引用与move语意
-categrote: [Morden C++]
+categories: [Morden C++]
 ---
 
 # 左值（lvalue）和右值（rvalue）
