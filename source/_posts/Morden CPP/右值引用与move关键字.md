@@ -34,3 +34,11 @@ string remove_capital(string &str, int size) {
   return res;
 }
 ```
+当我们这样调用：
+```c++
+string str = "Hello world";
+remove_capital(str, str.size());
+cout<<str<<endl;
+```
+可以看到正常输出了“ello world”
+但是假如我们要通过一个函数从服务器，数据库之类的地方去数据呢？
